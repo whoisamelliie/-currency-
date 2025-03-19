@@ -1,0 +1,54 @@
+.app-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 25px;
+  border: 1px solid purple;
+  border-radius: 8px;
+  background-color: plum;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.app-title {
+  color: darkmagenta;
+  margin-bottom: 20px;
+}
+
+.input-group, .currency-select {
+  margin: 15px 0;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.input-field, .select-field {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid purple;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.convert-button {
+  background-color:darkorchid;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.convert-button:hover {
+  background-color: darkorchid;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: darkmagenta;
+}
+
